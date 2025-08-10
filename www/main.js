@@ -33,4 +33,10 @@ $(document).ready(function(){
         }
     });
 
+    $("#micBtn").click(function(){
+        $("#Oval").attr("hidden", true);
+        $("#SiriWave").attr("hidden", false);
+        eel.playClickSound();
+    });
+
 });
